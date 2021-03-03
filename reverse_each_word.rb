@@ -3,5 +3,5 @@ def reverse_each_word(greeting)
   greeting.split.each do |reversed_words|
     new_greeting << reversed_words.reverse
   end
-  new_greeting
+  new_greeting.join(" ")
 end
